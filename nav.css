@@ -1,0 +1,173 @@
+.left{
+    /* background-color: lightblue; */
+    /* width: 130px; */
+    align-items: center;
+    /* padding: 18px 14px 18px 16px; */
+    color: white; 
+    /* background-color: pink; */
+    justify-content: center;
+    display: flex;
+    margin-left: 27px;
+    display: flex;
+    margin-right: 60px;
+   
+}
+.yt-logo{
+    /* top:0; */
+    display: flex;
+    height: 64px;
+    width: 130px;
+    margin-left: 21px;
+    padding: 0;
+    /* padding-left:0; */
+    /* margin-left: 0; */
+  
+    /* padding: 18px 14px 18px 16px; */
+}
+.middle{
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    max-width: 100%;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    flex:1;
+    border-radius: 18px 0px 0px 18px;
+    width: 18px;
+    border: 1px solid hsla(0,0%,19%,1);
+    height: 31px; 
+    padding-left:12px;
+    background-color: #121212;
+}
+.mic{
+    border-radius: 16px;
+    height: 36px;
+    width: 36px;
+    margin: 12px;
+    /* background-color: hsl(0, 0%, 18.82%); */
+    background-color: hsla(0, 0%, 100%,0.08);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    /* background-color: #FFFFFF14; */
+    
+}
+.right{
+    /* background-color: pink; */
+    width: 200px;
+    color: #FFFFFF;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1px;
+    margin-left: 3px;
+    flex-shrink: 0;
+    padding: 12px;
+    /* border: 0.5px solid black; */
+}
+.camera-logo{
+    height: 24px;
+    width: 90px;
+    /* color: white; */
+   
+}
+
+
+.notify-me{
+    position: relative;
+}
+.notify-count{
+    position: absolute;
+    top:-6px;
+    right:-6px;
+    background-color: red;
+    color: white;
+    font-family: roboto , arial;
+    font-size: 11px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:2px;
+    padding-top:2px;
+    width: 3px;
+    border-radius: 10px;
+    height: 9px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.account-logo{
+    height: 33px;
+    width: 33px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.search-bar::placeholder{
+    /* font-family: roboto,arial; */
+    font-size: 14px;
+
+}
+.magnifying-glass{
+    height: 35px;
+    border-radius: 0px 18px 18px 0px;
+    border: 1px solid hsla(0,0%,19%,1);
+    font-size: medium;
+    color:white;
+    justify-content: right;
+    padding-right:21px;
+    /* border-radius: 2px; */
+    font-size: 12px;
+    /* background-color: #FFFFFF14; */
+    /* background-color: hsl(0, 0%, 18.82%); */
+    background-color: hsla(0, 0%, 100%,0.08);
+    width:56px;
+    /* opacity: 0; */
+   
+    /* transition: opacity 0.15s; */
+    /* display: block; */
+
+}
+.magnifying-glass ,
+.mic ,
+.hovverover,
+.notify-me{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: 0; */
+    
+}
+
+
+.magnifying-glass .hovver,
+.mic .hovver,
+.hovverover .hovver,
+.notify-me .hovver{
+    position: absolute;
+    background-color: #877d7d;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -31px;
+    padding: 8px 8px 4px 4px ;
+    transition: opacity 0.5s;
+    opacity: 0;
+    font-family: roboto,arial;
+    white-space: nowrap;
+  
+  
+}
+.magnifying-glass:hover .hovver,
+.mic:hover .hovver,
+.hovverover:hover .hovver,
+.notify-me:hover .hovver{
+    opacity: 1;
+    /* margin: 120px; */
+    /* top: 0; */
+}
